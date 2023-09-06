@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+
+</head>
+<body >
+    <div class="container">
+        <!-- w-25,50,75,100 <- 퍼센트 수치 -->
+        <!-- p-숫자(1~5) <- 패딩 -->
+        <!-- m-숫자(1~5) <- 마진 -->
+        <!-- 마진/패딩(상/우/하/좌)넣는 방법 : top,bottom,start,end  -->
+        <!-- 마진/패딩 조합 : pt-3(padding-top) pb-3(padding-bottom)
+                             mt=3(margin-top) mb-3(margin-bottom)-->
+        <!-- 가로 예제 -->
+       <div style="background-color: #eee;" class="w-25 p-3">Lorem</div> 
+       <div style="background-color: #eee;" class="w-50 p-3">Lorem</div> 
+       <div style="background-color: #eee;" class="w-75 p-3">Lorem</div> 
+       <div style="background-color: #eee;" class="w-100 p-5 mt-3">Lorem</div> 
+       
+       <!-- 세로 예제 -->
+     
+    <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+        <!-- h-25,50,75,100 : height 설정(%) -->
+        <!-- class="d-inline-block" : css(display : (none, inline, inline-block)) -->
+        <div class="h-25 d-inline-block " style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
+        <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
+        <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
+        <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
+        <div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height auto</div>
+      </div>
+
+
+    </div>
+</body>
+</html>

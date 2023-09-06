@@ -1,0 +1,36 @@
+#container {
+    /* border: 1px dotted black; */
+    height: 200px;
+    width: 800px;
+    margin: 20px auto;
+}
+
+.origin {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 40px;
+}
+
+.origin > div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transition: transform 2s;
+
+}
+
+/* 애니메이션 부여 */
+#movex:hover {
+    /*  */
+    transform: translateX(50px);
+}
+#movey:hover {
+    /*  */
+    transform: translateY(50px);
+}
+#movexy:hover {
+    /*  */
+    transform: translate(50px, 50px);
+}

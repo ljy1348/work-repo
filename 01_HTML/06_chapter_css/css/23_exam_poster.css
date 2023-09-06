@@ -1,0 +1,18 @@
+#container {
+    /* 중앙 정렬 */
+    margin: 0 auto;
+    /* 가로 */
+    width: 800px;
+}
+
+table, th, td {
+    /* 외곽선 */
+    border: 1px solid #222;
+    /* 선사이 간격 붙이기 */
+    border-collapse: collapse;
+}
+
+th, td {
+    /* 안쪽 여백 */
+    padding: 10px;
+}

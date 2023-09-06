@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 id="title">제이쿼리</h1>
+    <h2 id="">선택자</h2>
+    <h3 id="">직접 선택자</h3>
+    
+    
+    
+    
+    <!-- jquery cdn : 인터넷 주소로 자동 다운로드 -->
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        $(function() {
+            // 전체 태그를 선택해서 1px의 외곽선을 부여하라
+            // jquery : $(태그).css("속성", "값") <- jquery 디자인 조작 함수
+            $("*").css("border", "1px solid blue")
+        })
+    </script>
+</body>
+</html>

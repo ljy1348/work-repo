@@ -1,0 +1,20 @@
+/* 글자 세로 간격 속성 */
+p {
+    /* 글자 크기 */
+    font-size: 14px;
+    /* 글자 세로 간격 */
+    line-height: 180%;
+}
+
+/* id 선택자 : #(샵) 붙일것 */
+#fly {
+    /* 글자색 */
+    color: red;
+    /* 굵은 글씨 */
+    font-weight: bold;
+}
+
+/* class 선택자 : .(점) 붙일것 */
+.blue {
+    color:blue;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Click</h1>
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        $(function() {
+            // .hover(function(){실행1}, function(){실행2})
+            // 마우스가 올라가면 실행1 실행되고
+            // 마우스가 나가면 실행2 실행됨
+            $("h1").hover(function(){
+//              마우스 올라오면
+                $(this).css({background: "red"});
+            },function(){
+                // 마우스 나가면
+                $(this).css({background: ""});
+            })
+        })
+    </script>
+</body>
+</html>

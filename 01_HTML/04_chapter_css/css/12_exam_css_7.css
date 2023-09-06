@@ -1,0 +1,31 @@
+/* 힌트 : li - list-style-type: square 적용, 글자크기 16px p - 자간 150%,
+    글자크기 14px body - 돋음 폰트 h3 - 맑은고딕 폰트 */
+body {
+    /* 글자 스타일 */
+    font-family: '돋음';
+}
+
+h3 {
+    /* 글자 스타일 */
+    font-family: '맑은고딕';
+    color: blue;
+}
+
+p {
+    /* 자간 == 글자 세로 사이 간격 */
+    line-height: 150%;
+    /* 글자 크기 */
+    font-size: 14px;
+}
+
+li {
+    /* 목록 앞에 사각형 */
+    list-style-type: square;
+    /* 글자 크기 */
+    font-size: 16px;
+}
+
+span {
+    /* 굵은 글씨 */
+    font-weight: bold;
+}

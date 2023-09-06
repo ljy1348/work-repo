@@ -1,0 +1,26 @@
+h3 {
+    /* 바깥여백 */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ul {
+    /* border: 선두께 선스타일 색상 */
+    border: 1px solid black;
+    /* 축약형 : padding 상 우 하 좌 */
+    padding: 20px 30px 30px 30px;
+    /* 가로크기  */
+    width: 450px;
+    /* 축약형 : margin 상 우 하 좌 */
+    margin: 20px 0 0 20px;
+}
+
+li {
+    /* 목록 앞에 점 없애기 */
+    list-style-type: none;
+    /* 외곽선(점선) */
+    /* border-bottom: 선두께 선스타일(점선) 색상 */
+    border-bottom: 1px dotted gray;
+    /* 안쪽 여백(축약형) : padding 상 우 하 좌 */
+    padding: 10px 0 10px 0;
+}

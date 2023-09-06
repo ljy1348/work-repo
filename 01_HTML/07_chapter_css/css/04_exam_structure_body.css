@@ -1,0 +1,37 @@
+.contents {
+    margin: 30px auto;
+    width: 1000px;
+}
+
+.detail > img {
+    float: left;
+    width: 450px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+main h2 {
+    padding: 40px 0;
+    font-size: 1.5em;
+}
+
+#headling {
+    height: 400px;
+}
+
+.detail p {
+    padding: 0 0 20px 0;
+}
+
+#headling li {
+    padding: 15px 0;
+}
+
+
+#activity {
+    height: 350px;
+}
+
+.schedule h3 {
+    font-size: 1.2em;
+}

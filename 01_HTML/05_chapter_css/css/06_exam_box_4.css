@@ -1,0 +1,30 @@
+#title1 {
+  /* 외곽선 (위쪽) */
+  /* border-top: 선두께 선스타일 선색상 */
+  border-top: 2px solid black;
+  /* 안쪽 여백 */
+  padding: 5px;
+  /* 가로 크기 */
+  width: 345px;
+}
+
+#title2 {
+  /* 외곽선 (왼쪽) */
+  /* border-top: 선두께 선스타일 선색상 */
+  border-left: 2px solid #e1285a;
+  /* 안쪽 여백 */
+  padding: 5px;
+}
+
+#title3 {
+  /* 외곽선 */
+  /* border: 선두께 선스타일 선색상 */
+  border: 2px solid skyblue;
+  /* TODO: 둥근 사각형(모서리) 속성 */
+  /* TODO: 사용법 - border-radius: 크기; (크기가 클수록 원이됨) */
+  border-radius: 3px;
+  /* 안쪽 여백 */
+  padding: 5px;
+  /* 가로 크기  */
+  width: 345px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p1 {
+            color: red;
+        }
+        .p2 {
+            color: blue;
+        }
+        .p3 {
+            color: green;
+        }
+    </style>
+</head>
+    <p>Lorem</p>
+    <p>Ipsum</p>
+    <p>Dolor</p>
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        $(function() {
+            // 위의 p태그를 각각 선택해서 색깔 적용
+            // 내부 반복문 실행 : .each()
+            let i = 1; // 초기값
+            $("p").each(function(){
+                $(this).addClass("p"+i);
+                i++;
+            })
+        })
+    </script>
+</body>
+</html>

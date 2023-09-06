@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 기술 면접 대비 -->
+    <script>
+        // 이론) 자바스크립트 함수의 특징
+        // 호이스팅 : 함수의 위치를 강제로 위로 이동시키는 것
+        // 웹브라우저의 기본 기능
+        // 대상 : 1)함수, 2) 변수
+        // 예제 :
+        let hello = "안녕하세요";
+        // 1) 함수 선언식
+        // sample 함수의 선언이 밑에 있지만 호이스팅에 의해 
+        // 함수가 위로 올라와서 sample(); 이 실행 된다.
+        // sample();
+        // function sample() {
+        //     alert("안녕");
+        // }
+
+        // 2) 함수 표현식, 화살표 함수
+        // sample 함수가 밑에 있으므로 오류가 난다.
+        // 함수 표현식, 화살표 함수는 호이스팅이 일어나지 않는다.
+        // 그래서 밑에 있는 함수를 불러 올 수 없어 에러가 발생한다.
+        // sample();
+        // let sample = function () {
+        //     alert("안녕");
+        // }
+        // sample(); <- 여기서는 오류가 일어나지 않고 함수가 일어난다.
+
+        // 예제2 : 변수 호이스팅 예제
+        var num; //변수 호이스팅이 일어남
+        // 변수 호이스팅의 문제점 : 1) 변수의 순서가 뒤죽박죽됨
+        //                        2) 중복 변수 정의 : 버그를 일으킬 수 있음.
+        // 변수 선언 -> var(호이스팅 일어남), let,const(호이스팅 일어나지 않음)
+        // 그래서 var 보다 let이나 const를 쓰는 것이 좋다.
+
+    </script>
+</body>
+</html>

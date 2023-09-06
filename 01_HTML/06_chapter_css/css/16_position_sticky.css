@@ -1,0 +1,11 @@
+/* position : sticky (고정) */
+.top-bar {
+    /* 세로 */
+    height: 50px;
+    /* 배경색 */
+    background-color: blue;
+    /* 고정 , 좌표 부활(left/top/right/bottom) */
+    position: sticky;
+    /* 위쪽(y좌표) */
+    top: 0;
+}

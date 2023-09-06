@@ -1,0 +1,61 @@
+/* 문제 풀이 */
+#container {
+  /* 가로 */
+  width: 600px;
+  /* 중앙 정렬 */
+  margin: 0 auto;
+}
+
+ul {
+  /* 목록 점 없애기 */
+  list-style-type: none;
+}
+
+/* 라벨 디자인 */
+.field {
+  /* 가로 */
+  width: 60px;
+  /* margin(축약식2): 상/하 좌/우 */
+  margin-right: 15px;
+  /* 가로배치 */
+  display: inline-block;
+  /* 글자 크기 : 세로크기 */
+  font-size: 0.9em;
+  /* 굵은 글씨 */
+  font-weight: bold;
+  /* 글자 오른쪽 정렬 */
+  text-align: right;
+}
+
+/* 입력양식 디자인 */
+.input-box {
+  /* 가로배치 */
+  display: inline-block;
+  /* 가로 */
+  width: 350px;
+  /* 세로 */
+  height: 35px;
+  /* 안쪽여백 */
+  padding: 5px;
+  /* 바깥여백(축약식2): 상/하 좌/우 */
+  margin: 10px 0;
+}
+/* 버튼 디자인 */
+/* 자식선택자 사용 */
+#buttons > li {
+  /* 세로 -> 가로 배치 */
+  display: inline-block;
+}
+
+button {
+  /* 가로 */
+  width: 250px;
+  /* 세로 */
+  height: 50px;
+  /* 외곽선 */
+  border: 1px solid white;
+  /* 글자크기 */
+  font-size: 0.9em;
+  /* 바깥여백 - 오른쪽 */
+  margin-right: 10px;
+}

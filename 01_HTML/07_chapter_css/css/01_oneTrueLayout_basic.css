@@ -1,0 +1,53 @@
+/* 여백 초기화 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 전체 페이지 크기 정하기 */
+#container {
+    width: 1200px;
+    /* 중앙 정렬 * : auto(오른쪽.왼쪽 여백을 똑같이 정함(중앙 정렬이 됨))/
+    /* 사용법 : margin : 상/하 auto */
+    margin: 20px auto;
+}
+
+/* 머리말 */
+#header {
+    height: 120px;
+    /* 임시 : 공간 확인용 */
+    background-color: gray;
+    /* 나중에 삭제 필 */
+
+}
+
+/* 사이드바(좌측메뉴) */
+#sidebar {
+    /* 가로 */
+    width: 300px;
+    /* 세로 */
+    height: 600px;
+    /* 임시 */
+    background-color: aqua;
+    /* 좌측 배치 */
+    float: left;
+
+}
+
+/* 본문(우측) */
+#contents {
+    width: 900px;
+    height: 600px;
+    float: right;
+    /* 임시 */
+    background-color: beige;
+}
+
+/* 꼬리말 */
+#footer {
+    clear: both;
+    /* 세로 */
+    height: 100px;
+    /* 임시 */
+    background-color: burlywood;
+}

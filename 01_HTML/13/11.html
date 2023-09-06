@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>요소의 표시와 숨김</h1>
+    <button id="showBtn">표시</button>
+    <button id="hideBtn">숨김</button>
+    <p id="text">이 단란을 숨기거나 표시할거에요</p>
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        $(function() {
+            $("#showBtn").on("click", function(){
+                // .show 선택 태그 보여짐
+                $("#text").show();
+            })
+            $("#hideBtn").on("click", function(){
+                // .hide 선택 태그 사라짐
+                $("#text").hide();
+            })
+        })
+    </script>
+</body>
+</html>

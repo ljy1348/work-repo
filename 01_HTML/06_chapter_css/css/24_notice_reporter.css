@@ -1,0 +1,59 @@
+body {
+    background-color: #02233b;
+}
+
+/* TODO: 문제 풀이 */
+/* TODO: background-image: url("이미지경로")
+   TODO: background-repeat, background-position (좌표이동), 중앙정렬, padding
+ */
+#container {
+    /* 중앙 정렬 */
+    margin: 0 auto;
+    /* 가로 */
+    width: 600px;
+    /* 세로 */
+    height: 700px;
+    /* 외곽선 */
+    border: 1px dotted gray;
+    /* 안쪽 여백 */
+    padding: 20px;
+    /* 배경색 */
+    background-color: white;
+    /* 배경 이미지 넣기 */
+    background-image: url("../img/mic.png");
+    /* 반복 중지 속성 */
+    background-repeat: no-repeat;
+    /* 배경 이미지 위치 이동 */
+    /* background-position: 가로위치 세로위치 */
+    background-position: 100% 100%;
+}
+
+img {
+    margin: 30px 10px 30px 180px;
+}
+
+h1 {
+    background-color: #004344;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #cf3b00;
+}
+
+ul {
+    margin: 20px;
+    list-style-type: none;
+}
+
+li {
+    line-height: 30px;
+}

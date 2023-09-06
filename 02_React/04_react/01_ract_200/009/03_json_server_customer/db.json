@@ -1,0 +1,55 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "cname": "홍길동",
+      "email": "hong@naver.com",
+      "phone": "010-1234-5678"
+    },
+    {
+      "id": 2,
+      "cname": "임꺽정",
+      "email": "lim@daum.net",
+      "phone": "010-1234-5678"
+    },
+    {
+      "id": 3,
+      "cname": "장길산",
+      "email": "jang@gmail.com",
+      "phone": "010-1234-5678"
+    },
+    {
+      "email": "jeon@daum.net",
+      "cname": "전우치",
+      "phone": "010-1234-5678",
+      "id": 6
+    }
+  ],
+  "dept": [
+    {
+      "id": 1,
+      "dname": "부서명 1",
+      "loc": "위치 1"
+    },
+    {
+      "id": 2,
+      "dname": "부서명 2",
+      "loc": "위치 2"
+    },
+    {
+      "id": 3,
+      "dname": "부서명 3",
+      "loc": "위치 3"
+    },
+    {
+      "dname": "연구소",
+      "loc": "부산",
+      "id": 4
+    },
+    {
+      "dname": "마케팅2",
+      "loc": "서울",
+      "id": 5
+    }
+  ]
+}

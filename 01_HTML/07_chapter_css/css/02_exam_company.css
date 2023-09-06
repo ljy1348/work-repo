@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#page {
+    width: 995px;
+    margin: 0 auto;
+    /* background-color: beige; */
+}
+
+header {
+    width: 995px;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    /* background-color: aqua; */
+}
+
+#logo {
+    float: left;
+    /* background-color: aquamarine; */
+}
+#top {
+    float: right;
+    margin-top: 30px;
+    /* background-color: blanchedalmond; */
+}
+
+.clear {
+    clear: both;
+}
+nav {
+    /* clear: both; */
+    /* float: ; */
+    width: 995px;
+    height: 50px;
+    margin-top: 30px;
+    /* margin: 0 auto; */
+    margin-bottom: 30px;
+    /* background-color: aqua; */
+}
+
+
+nav li {
+    width: 150px;
+    /* border-top: 1px solid gray; */
+    /* inline-block : 가로로 배치하되 크기가 모자라면 줄바꿈이 됨. */
+    /* 세로 -> 가로배치 : display(inline-block), float:left */
+    display: inline-block;
+
+}
+
+section {
+
+    /* background-color: aqua; */
+    width: 600px;
+    height: 200px;
+    float: left;
+}
+
+aside {
+    width: 370px;
+    float: right;
+    /* background-color: burlywood; */
+    
+
+}
+aside ul {
+    list-style-type: none;
+}
+
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid gray;
+    /* clear: both; */
+    width: 995px;
+    background-color: blue;
+    /* margin: 0 auto; */
+    /* padding: 30px; */
+}
+
+#address {
+    float: left;
+    margin: 30px;
+}
+#customer {
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+}

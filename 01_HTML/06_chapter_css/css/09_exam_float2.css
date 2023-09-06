@@ -1,0 +1,31 @@
+li {
+  /* 점 없애기 */
+  list-style-type: none;
+}
+
+/* 수목원 로고 : 왼쪽정렬 */
+#logo {
+  /* 왼쪽 정렬 */
+  float: left;
+}
+
+/* 메뉴 : 오른쪽 정렬 */
+#menu {
+  /* 오른쪽 정렬 */
+  float: right;
+  /* 글자크기 */
+  font-size: 14px;
+  /* 바깥여백 - 위쪽 */
+  margin-top: 20px;
+}
+/* 메뉴 - 가로배치 */
+#menu li {
+  display: inline-block;
+}
+/* 본문 이미지 : float 효과 제거 */
+#main_image {
+  /* TODO: float 효과 제거하는 속성 */
+  clear: both;
+  /* 안쪽 여백 - 위쪽 */
+  padding-top: 20px;
+}

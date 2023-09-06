@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <img src="./img/cup.png" alt="컵" id="cup" onclick="myImgClick(event)">
+    </div>
+    <!-- <script src="./js/08_dom_onclick_getElementByid.js"></script> -->
+    <!-- 권장하지 않는 방법 -->
+    <script>
+        function myImgClick(event) {
+            // window 객체 : 최상위 객체
+            // document(html 문서)
+            // 이벤트 객체 : target 속성 <-- 매우 중요
+            // event.target(클릭한 태그가 선택됨 -> 여기서는 이미지 태그)
+            // 
+            alert("클릭한 이미지 파일명 : "+ event.target.src);
+        }
+        // 참고)
+        // let img = document.querySelector("#cup"); // img 태그 선택
+        // querySelector 함수와 같은 용도의 함수 : getElementById(id값);
+        // document.getElementsByClassName(클레스 이름);
+        // document.getElementsByName(태그에 설정한 이름);
+        // document.getElementsByTagName(태그);
+
+    </script>
+</body>
+</html>

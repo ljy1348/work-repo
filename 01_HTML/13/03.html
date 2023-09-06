@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>안녕하세요</p>
+    <p>반갑습니다.</p>
+    <button>글자 색상 변경하기</button>
+
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        $(function() {
+            //버튼 클릭시 함수 실행하기 위한 선택자
+            $("button").click(function(){
+                // 클릭시 실행되는 부분
+                $("p").css("color", "red");
+            })
+        })
+    </script>
+</body>
+</html>

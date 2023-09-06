@@ -1,0 +1,34 @@
+body {
+    /* 배경 이미지 */
+    background-image: url("../img/bg2.jpg");
+    /* 이미지 반복 중단 속성 */
+    background-repeat: no-repeat;
+}
+
+p {
+    /* 글자 크기 */
+    font-size: 20px;
+    /* 바깥여백 - 위쪽 */
+    margin-top: 160px;
+    /* 바깥여백 - 왼쪽 */
+    margin-left: 130px;
+    /* 가로 크기 */
+    width: 280px;
+}
+
+div {
+    /* 가로 크기 */
+    width: 120px;
+    /* 바깥여백 - 왼쪽 */
+    margin-left: 210px;
+    /* 바깥여백 - 위쪽 */
+    margin-top: 30px;
+    /* 배경색 */
+    background-color: blue;
+    /* 글자색 */
+    color: white;
+    /* 글자 중앙 정렬 */
+    text-align: center;
+    /* 안쪽 여백 */
+    padding: 8px;
+}

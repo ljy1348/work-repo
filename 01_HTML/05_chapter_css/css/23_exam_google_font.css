@@ -1,0 +1,18 @@
+/* 문제 풀이 : Moirai One, Diphylleia */
+@import url("https://fonts.googleapis.com/css2?family=Moirai+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&display=swap");
+
+/* Moirai One 적용 */
+h1 {
+  /* 글자 중앙 정렬  */
+  text-align: center;
+  /* 구글 웹폰트 */
+  font-family: "Moirai One", cursive;
+}
+/* Diphylleia */
+p {
+  /* 글자 중앙 정렬  */
+  text-align: center;
+  /* 구글 웹폰트 */
+  font-family: "Diphylleia", serif;
+}

@@ -1,0 +1,32 @@
+div {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  float: left;
+  /* border: 1px solid black; */
+}
+
+.bg-tr {
+  background-color: skyblue;
+  /* 애니메이션 부여 */
+  /* ease : 시작(천천히) 중간(빠르게) 끝(천천히) */ 
+  transition: all ease 1s;
+}
+
+.bg-tr:hover {
+    background-color: blue;
+}
+
+.border-tr {
+  background-color: orange;
+  /* linear : 등속 시작 - 중간 - 끝 속도 같음 */
+  transition: all linear 1s;
+}
+
+.border-tr:hover {
+    /* background-color: orange; */
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
